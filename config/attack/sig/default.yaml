@@ -1,0 +1,8 @@
+attack: sig
+#20是gtsrb\cifar，40是mnist
+sig_delta: 20
+sig_f: 6
+attack_label_trans: all2one
+attack_target: 1
+#mnist、cifar都是0.04，gtsrb1号有2220张，0.2是440张，gtsrb是39209张，因此选0.011比较合适
+pratio: 0.011
